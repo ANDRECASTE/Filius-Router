@@ -4,3 +4,7 @@
 Il DHCP in poche parole serve per fornire un IP ad ogni dispositivo che si connette alla rete ES (quando con il telefono ci connettiamo alla rete il DHCP ci fornisce un IP).
 
 ![filius-router](./Img/filius-router.png)
+
+#### Ogni volta che noi facciamo un ping verso un computer inviamo un ARP(Protocollo ARP)che è tipo una richiesta, dopo aver inviato l’ARP inviamo un pacchetto verso destinazione. 
+#### Inizialmente i PC delle due reti non comunicavano con ping perché nella prima rete i PC non avevano configurato il default gateway, e nell’altra rete l’indirizzo ip era sbagliato e non era settato il default gateway, dopo averlo configurato infatti vediamo che il ping arriva a destinazione .
+
